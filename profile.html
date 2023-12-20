@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+        </div>
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+       
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+
+                <li><a href="#"><img src="images/message.png"><span>Mwessaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+<div class="online">
+    <img src="images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+</div>
+           
+        </div>
+
+<!-- -----profile drop down menu -->
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+    <div class="user-info">
+        <img src="images/user-1.png">
+        <div>
+            <h3>Rayan Walton</h3>
+            <a href="#">See Your Profile</a>
+        </div>
+    </div>
+    <hr>
+    <a href="#" class="profile-menu-link">
+        <img src="images/feedback.png" alt="">
+        <p>Give Feedback</p>
+        <span>></span>
+    </a>
+    <a href="#" class="profile-menu-link">
+        <img src="images/setting.png" alt="">
+        <p>Setting & Privacy</p>
+        <span>></span>
+    </a>
+    <a href="#" class="profile-menu-link">
+        <img src="images/help.png" alt="">
+        <p>Help & Supports</p>
+        <span>></span>
+    </a>
+    <a href="#" class="profile-menu-link">
+        <img src="images/display.png" alt="">
+        <p>display & Accessiblity</p>
+        <span>></span>
+    </a>
+
+    <a href="#" class="profile-menu-link">
+        <img src="images/logout.png" alt="">
+        <p>Logout</p>
+        <span>></span>
+    </a>
+    </div>
+</div>
+    </nav>
+
+<div class="container">
+
+    <div class="profile-main">
+<div class="profile-container">
+    <img src="images/cover-pic.png" width="100%">
+    <div class="profile-container-inner">
+        <img src="images/user-1.png" class="profile-pic">
+        <h1>Rayan Walton</h1>
+        <b>Web Developer at Microsoft | Former Developer at DataStack and intern at Oracle</b>
+        <p>San Francisco ,United States &middot; <a href="#" >Contact info</a> </p>
+        <div class="mutual-connection">
+            <img src="images/user-2.png">
+            <span>1 mutual connection: Ornald Diggs </span>
+        </div>
+        <div class="profile-btn">
+            <a href="#" class="primary-btn" > <img src="images/connect.png" >Connect</a>
+            <a href="#" > <img src="images/chat.png" >Message</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="profile-description">
+<h2>About</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Hic minus eos facilis sapiente reiciendis repellendus maxime nulla laboriosam ullam qui sint nam at sit ea nihil,
+     cum consequuntur voluptatem eligendi.</p>
+     <a class="see-more-link"> see more..</a>
+</div>
+
+
+<div class="profile-description">
+    <h2>Experience</h2>
+    <div class="profile-desc-row">
+<img src="images/microsoft.png" >
+<div>
+    <h1>Lead Front-End Developer</h1>
+    <b>Microsoft &middot; Full-time</b>
+    <b>Fed 2021 -Present &middot; 1.5 years</b>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil doloremque, quisquam quis consectetur similique deserunt quidem nemo atque adipisci assumenda, iste, optio dolorum expedita tempore nostrum pariatur velit ipsum delectus.</p>
+</div>
+    </div>
+    
+    
+    
+    
+    </div>
+
+    </div>
+
+    <!-- ----profile-sidebar -->
+    <div class="profile-sidebar">
+
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script>
+        let profileMenu =document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+</html>
